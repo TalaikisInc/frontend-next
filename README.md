@@ -10,15 +10,18 @@
 
 Fully featured React.js SSR user management system/ CMS (frontend).
 
-* Passwordles user sign in, sign up, sign out
+* Passwordless user sign in, sign up
+* Sign out
 * Profile edit, delete
-* Account confirm
-* Written in hooks
+* Admin system (required password upon access)
+* Passwordless account confirm
+* Written in React hooks
 * Atomic (in progress anyway) design. Currently, if changing nothing else, color scheme can be changed via one config file.
+* Encrypted user browser storage
 
 ## Backend
 
-* [API Next](https://github.com/TalaikisInc/api-next) - API on AWS
+* [API Next](https://github.com/TalaikisInc/api-next) - an API on AWS
 
 ## Install
 
@@ -30,6 +33,7 @@ npm i
 
 ```bash
 now secrets add cms-api-key <key>
+# ...
 ```
 
 ## Build
@@ -51,7 +55,7 @@ npm run start
 
 ## Get it
 
-API Next + Frontend Next is a boilerplate for custom products. If you want to get them please contact me via [form](https://www.talaikis.com/).
+API Next + Frontend Next is a boilerplate for custom products. If you want to discuss the system, please contact me via [form](https://www.talaikis.com/).
 
 ## Licence
 
