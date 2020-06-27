@@ -59,4 +59,4 @@ API Next + Frontend Next is a boilerplate for custom products. If you want to di
 
 ## Licence
 
-MIT
+See LICENCE.txt
